@@ -1,0 +1,21 @@
+[
+ {
+  "id": "mcp_001",
+  "category": "MCP",
+  "topic": "MCP Basics",
+  "level": 1,
+  "type": "conceptual",
+  "q": "What is the Model Context Protocol?",
+  "a": "An open protocol where MCP clients connect to MCP servers that expose tools, resources and prompts to LLM applications in a standard way.",
+  "tags": [
+   "tools",
+   "resources",
+   "prompts"
+  ],
+  "key": [
+   "tools",
+   "resources",
+   "prompts"
+  ]
+ }
+]

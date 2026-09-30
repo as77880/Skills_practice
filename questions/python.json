@@ -1,0 +1,53 @@
+[
+ {
+  "id": "python_001",
+  "category": "Python",
+  "topic": "Python Basics",
+  "level": 1,
+  "type": "conceptual",
+  "q": "What is the difference between a list and a tuple?",
+  "a": "Lists are mutable and tuples are immutable. Tuples are hashable when their items are, so they can be dict keys.",
+  "tags": [
+   "mutability",
+   "hashable"
+  ],
+  "key": [
+   "mutability",
+   "hashable"
+  ]
+ },
+ {
+  "id": "python_002",
+  "category": "Python",
+  "topic": "Generators",
+  "level": 2,
+  "type": "technical",
+  "q": "What does the yield keyword do?",
+  "a": "yield turns a function into a generator that produces values lazily and keeps its state between calls.",
+  "tags": [
+   "lazy",
+   "state"
+  ],
+  "key": [
+   "lazy",
+   "state"
+  ]
+ },
+ {
+  "id": "python_003",
+  "category": "Python",
+  "topic": "Advanced Python",
+  "level": 2,
+  "type": "coding",
+  "q": "Write a function to find duplicate elements in a list.",
+  "a": "def dups(l):\n    seen,d=set(),set()\n    for x in l:\n        (d if x in seen else seen).add(x)\n    return list(d)",
+  "tags": [
+   "set",
+   "O(n)"
+  ],
+  "key": [
+   "set",
+   "O(n)"
+  ]
+ }
+]

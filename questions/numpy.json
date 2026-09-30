@@ -1,0 +1,17 @@
+[
+ {
+  "id": "numpy_001",
+  "category": "NumPy",
+  "topic": "Broadcasting",
+  "level": 2,
+  "type": "technical",
+  "q": "What is broadcasting in NumPy?",
+  "a": "Broadcasting lets arrays of different shapes work together by virtually expanding dimensions of size 1 when shapes are compatible from the trailing side.",
+  "tags": [
+   "shape rules"
+  ],
+  "key": [
+   "shape rules"
+  ]
+ }
+]

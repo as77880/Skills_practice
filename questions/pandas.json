@@ -1,0 +1,17 @@
+[
+ {
+  "id": "pandas_001",
+  "category": "Pandas",
+  "topic": "GroupBy",
+  "level": 2,
+  "type": "technical",
+  "q": "How does groupby work in Pandas?",
+  "a": "It splits data into groups, applies a function such as sum or mean to each group, and combines the results.",
+  "tags": [
+   "split-apply-combine"
+  ],
+  "key": [
+   "split-apply-combine"
+  ]
+ }
+]

@@ -1,0 +1,19 @@
+[
+ {
+  "id": "sql_001",
+  "category": "SQL",
+  "topic": "Window Functions",
+  "level": 3,
+  "type": "technical",
+  "q": "Difference between RANK and DENSE_RANK?",
+  "a": "RANK leaves gaps after ties, DENSE_RANK does not.",
+  "tags": [
+   "ties",
+   "gaps"
+  ],
+  "key": [
+   "ties",
+   "gaps"
+  ]
+ }
+]

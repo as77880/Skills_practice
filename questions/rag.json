@@ -1,0 +1,19 @@
+[
+ {
+  "id": "rag_001",
+  "category": "RAG",
+  "topic": "Chunking",
+  "level": 2,
+  "type": "scenario",
+  "q": "Your RAG answers miss context that spans paragraphs. What do you change?",
+  "a": "Increase chunk size or add overlap, use semantic or structure-aware chunking, and retrieve neighbouring chunks or rerank results.",
+  "tags": [
+   "overlap",
+   "reranking"
+  ],
+  "key": [
+   "overlap",
+   "reranking"
+  ]
+ }
+]

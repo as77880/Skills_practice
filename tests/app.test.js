@@ -1,0 +1,12 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
+import {nextReview,validPhone,validPass,validDob,validQuestion,stats,backup,validBackup,DAY} from '../js/srs.js';
+import {loadRuntimeConfig} from '../server.js';
+test('phone',()=>{assert(validPhone('9876543210'));assert(!validPhone('1234567890'))});
+test('password',()=>{assert(validPass('abc12345'));assert(!validPass('short1'))});
+test('dob',()=>{assert(validDob('2000-01-01'));assert(!validDob('2999-01-01'))});
+test('server runtime config is loaded from .env',()=>{const env=loadRuntimeConfig();assert.equal(typeof env.JWT_SECRET,'string');assert.equal(typeof env.MYSQL_URL,'string');});
+test('rating required',()=>assert.throws(()=>nextReview(undefined)));
+test('revision intervals',()=>{assert.equal(nextReview(1,0),DAY);assert(nextReview(5,0)>nextReview(3,0))});
+test('all question files valid',()=>{for(const f of JSON.parse(fs.readFileSync('questions/index.json')))for(const q of JSON.parse(fs.readFileSync(`questions/${f}.json`)))assert(validQuestion(q),q.id)});
+test('stats',()=>{const s=stats([{id:'a',topic:'t'},{id:'b',topic:'t'}],{a:{r:4}});assert.equal(s.attempted,1);assert.equal(s.remaining,1)});
+test('backup has no answers or password',()=>{const b=backup({progress:{},bm:[],notes:{},settings:{},password:'x',answer:'y'});assert(validBackup(b));assert(!('password'in b)&&!('answer'in b))});

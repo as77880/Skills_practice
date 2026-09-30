@@ -1,0 +1,19 @@
+[
+ {
+  "id": "nlp_001",
+  "category": "NLP",
+  "topic": "TF-IDF",
+  "level": 2,
+  "type": "technical",
+  "q": "What is TF-IDF?",
+  "a": "A weight for a term in a document: term frequency multiplied by inverse document frequency, so common words score low and distinctive words score high.",
+  "tags": [
+   "tf",
+   "idf"
+  ],
+  "key": [
+   "tf",
+   "idf"
+  ]
+ }
+]

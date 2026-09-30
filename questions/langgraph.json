@@ -1,0 +1,21 @@
+[
+ {
+  "id": "langgraph_001",
+  "category": "LangGraph",
+  "topic": "StateGraph",
+  "level": 2,
+  "type": "technical",
+  "q": "What is a StateGraph in LangGraph?",
+  "a": "A graph where nodes are functions that read and update a shared state, and edges (including conditional edges) decide which node runs next.",
+  "tags": [
+   "state",
+   "nodes",
+   "edges"
+  ],
+  "key": [
+   "state",
+   "nodes",
+   "edges"
+  ]
+ }
+]

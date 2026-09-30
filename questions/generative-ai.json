@@ -1,0 +1,19 @@
+[
+ {
+  "id": "generative-ai_001",
+  "category": "Generative AI",
+  "topic": "Temperature",
+  "level": 1,
+  "type": "conceptual",
+  "q": "What does temperature control in an LLM?",
+  "a": "It scales the randomness of token sampling. Low values are focused and deterministic, high values are more varied.",
+  "tags": [
+   "sampling",
+   "randomness"
+  ],
+  "key": [
+   "sampling",
+   "randomness"
+  ]
+ }
+]

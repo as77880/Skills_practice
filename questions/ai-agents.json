@@ -1,0 +1,21 @@
+[
+ {
+  "id": "ai-agents_001",
+  "category": "AI Agents",
+  "topic": "Agent Architecture",
+  "level": 2,
+  "type": "project-based",
+  "q": "Design an agent that answers questions from company documents.",
+  "a": "Use an LLM with a retrieval tool, a planner loop for multi-step questions, short-term memory, guardrails, and logging for evaluation.",
+  "tags": [
+   "tools",
+   "planning",
+   "memory"
+  ],
+  "key": [
+   "tools",
+   "planning",
+   "memory"
+  ]
+ }
+]

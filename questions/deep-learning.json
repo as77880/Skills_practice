@@ -1,0 +1,19 @@
+[
+ {
+  "id": "deep-learning_001",
+  "category": "Deep Learning",
+  "topic": "Backpropagation",
+  "level": 3,
+  "type": "mathematical",
+  "q": "Explain backpropagation.",
+  "a": "It applies the chain rule to compute the gradient of the loss with respect to each weight, moving backwards from the output layer, so an optimizer can update the weights.",
+  "tags": [
+   "chain rule",
+   "gradients"
+  ],
+  "key": [
+   "chain rule",
+   "gradients"
+  ]
+ }
+]

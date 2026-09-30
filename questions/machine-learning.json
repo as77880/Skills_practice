@@ -1,0 +1,38 @@
+[
+ {
+  "id": "machine-learning_001",
+  "category": "Machine Learning",
+  "topic": "ML Basics",
+  "level": 1,
+  "type": "conceptual",
+  "q": "What is Machine Learning?",
+  "a": "Machine Learning is a branch of AI that lets computers learn patterns from data and make predictions without being explicitly programmed for every case.",
+  "tags": [
+   "data",
+   "patterns",
+   "prediction"
+  ],
+  "key": [
+   "data",
+   "patterns",
+   "prediction"
+  ]
+ },
+ {
+  "id": "machine-learning_002",
+  "category": "Machine Learning",
+  "topic": "Model Evaluation",
+  "level": 2,
+  "type": "interview",
+  "q": "What is overfitting and how do you prevent it?",
+  "a": "The model memorises training data and performs poorly on new data. Prevent with more data, regularisation, cross-validation, simpler models, early stopping.",
+  "tags": [
+   "bias-variance",
+   "regularisation"
+  ],
+  "key": [
+   "bias-variance",
+   "regularisation"
+  ]
+ }
+]

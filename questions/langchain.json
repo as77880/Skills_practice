@@ -1,0 +1,19 @@
+[
+ {
+  "id": "langchain_001",
+  "category": "LangChain",
+  "topic": "Chains",
+  "level": 2,
+  "type": "technical",
+  "q": "What is a chain in LangChain?",
+  "a": "A chain composes steps such as prompt, model and output parser into one runnable pipeline, commonly with the pipe operator.",
+  "tags": [
+   "runnable",
+   "LCEL"
+  ],
+  "key": [
+   "runnable",
+   "LCEL"
+  ]
+ }
+]
