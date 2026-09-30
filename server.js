@@ -3,8 +3,8 @@ import helmet from 'helmet';import rateLimit from 'express-rate-limit';import pa
 import {validPhone,validPass,validDob} from './js/srs.js';
 
 export const loadRuntimeConfig=()=>({
-  JWT_SECRET: process.env.JWT_SECRET,
-  MYSQL_URL: process.env.MYSQL_URL || process.env.DATABASE_URL,
+  JWT_SECRET: process.env.JWT_SECRET || 'ajya97',
+  MYSQL_URL: process.env.MYSQL_URL || process.env.DATABASE_URL || "mysql://root:TOqCutljbPZqLccoDgzfdZosPVcGZXTQ@sakura.proxy.rlwy.net:22260/railway",
   PORT: Number(process.env.PORT || 3000)
 });
 
