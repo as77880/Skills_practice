@@ -5,7 +5,8 @@ Questions stay in static JSON. Only progress data goes to MySQL. **User answers 
 1. Node 18+. `npm install`
 2. Copy `.env.example` to `.env`, fill `MYSQL_URL` and `JWT_SECRET` (export them, e.g. `export $(cat .env | xargs)`).
 3. `npm start` → http://localhost:3000 (tables are created automatically on start).
-To use it without any server/database, set `API:""` in `js/config.js` (local-only mode).
+
+GitHub Pages note: the static site defaults to local-only mode on GitHub Pages, because Pages does not run the Node API. If you want cloud auth, set `API` in `js/config.js` to your backend URL (for example a Railway deployment).
 
 ## Deploy on Railway
 1. New Project → **Deploy from GitHub repo** (push this folder) or `railway up`.
